@@ -1,0 +1,86 @@
+/* CSS Style Sheet for Main Page */
+html {
+   background-color:#fbefd2;
+}
+* {
+   box-sizing: border-box;
+   font-family:'Arvo', serif;
+   color:#3e3f45;
+}
+h1 {
+font-size: 50px;
+font-weight: 300;
+text-align: center;
+}
+
+.nav ul {
+   list-style-type: none;
+   text-align: center;
+   border-bottom: 3px solid #79597e;
+   font-weight: lighter;
+}
+.nav li {
+   display: inline;
+
+}
+.nav div {
+   text-align: right;
+
+}
+.nav a {
+   display: inline-block;
+   padding: 1em; /* space out elements from each other */
+   text-decoration: none;
+
+}
+.nav a:hover { /* do something when user hovers over link */
+   background-color:	#79597e;
+   color:#fbefd2;
+}
+.main-header {
+font-size: 20px;
+font-weight: 100;
+}
+
+.form-signup { /* Styling for the signup page */
+   text-align: center;
+}
+
+.signup-error{
+   text-align: center;
+   font-size: 30px;
+}
+.date-selector{
+   text-align: center;
+}
+
+.wrapper-main{
+   margin:1em;
+   max-width: 900px;
+   text-align: justify;
+   margin: 0 auto;
+   font-size: 20px;
+   padding: 0 1.5em;
+   padding-bottom: 200px;
+}
+
+.icon-container{
+   width:100px;
+   height:100px;
+   vertical-align: bottom;
+   float: right;
+}
+.icon-container img{
+   width:100%;
+   height: auto;
+}
+.footer-note{
+   text-align: center;
+}
+#entry_table {
+   margin:auto;
+   background:#FFFFFF;
+   width:50%;
+   padding: 10px;
+
+}
